@@ -1,9 +1,9 @@
-#team {
+.team {
     background-color: #f4f4fd;
 
 }
 
-#team .our {
+.team .our {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -16,7 +16,7 @@
     background-color: #fff;
 }
 
-#team h3 {
+.team h3 {
     text-align: center;
         font-weight: 500;
         font-size: 20px;
@@ -25,7 +25,7 @@
         color: #2e2f42;
 }
 
-#team p {
+.team p {
     text-align: center;
         font-weight: 400;
         font-size: 16px;

@@ -1,4 +1,4 @@
-#hero {
+.section {
     background: #2e2f42;
 }
 .solutions {
@@ -9,13 +9,20 @@
         text-align: center;
         color: #fff;
 }
-#hero .button {
+.section .button {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-#hero .button:hover {
+.section .button:hover {
+    background-color: #404bbf;
+}
+
+.section .button:focus {
     background-color: #404bbf;
 }
 

@@ -1,4 +1,4 @@
-#header .logo {font-family: "Raleway", sans-serif;
+.logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33333;
@@ -8,7 +8,7 @@
     text-decoration: none;
 
 }
-#header .accent {
+.accent {
     color: #4d5ae5;
 }
 .site-nav .navigation {
@@ -25,15 +25,27 @@
     color: #404bbf;
 }
 
+.site-nav .navigation:focus {
+    color: #404bbf;
+}
+
 .hot-line .contact {
-    font-weight: 500;
+    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: #434455;
         text-decoration: none;
 }
 
 .hot-line .contact:hover {
     color: #404bbf;
+}
+
+.hot-line .contact:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal
 }
